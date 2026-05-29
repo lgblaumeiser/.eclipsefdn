@@ -1653,6 +1653,7 @@ orgs.newOrg('automotive.tractusx', 'eclipse-tractusx') {
       ],
     },
     orgs.newRepo('tractusx-edc-compatibility-tests') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -1702,6 +1703,7 @@ orgs.newOrg('automotive.tractusx', 'eclipse-tractusx') {
       ],
     },
     orgs.newRepo('tractusx-edc-template') {
+      archived: true,
       delete_branch_on_merge: false,
       is_template: true,
       private_vulnerability_reporting_enabled: true,
